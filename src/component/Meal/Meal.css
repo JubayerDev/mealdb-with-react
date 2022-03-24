@@ -1,0 +1,21 @@
+.meal-container{
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    height: 450px;
+    width: 350px;
+    padding: 10px;
+    background-color: #ddd;
+}
+.meal-container img{
+    width: 80%;
+    margin: 0 35px;
+    border-radius: 10px;
+}
+.cart-icon{
+    display: block;
+    margin: 0 0 0 304px;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 5px;
+}
