@@ -1,0 +1,24 @@
+.nav-container{
+    height: 90px;
+    background-color: #23180D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+}
+.nav-items{
+    margin-right: 50px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    margin-left: 35px;
+    transition: .3s;
+}
+.nav-items a:hover{
+    background-color: #C52D2F;
+    padding: 7px;
+    border-radius: 2px;
+}
