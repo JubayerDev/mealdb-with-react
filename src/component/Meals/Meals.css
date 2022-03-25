@@ -1,7 +1,17 @@
+.mealdb-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
 .meals-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: 50px;
+}
+.cart-container{
+    background-color: #90e0ef;
+    position: sticky;
+    top: 0;
+    height: 530px;
 }
